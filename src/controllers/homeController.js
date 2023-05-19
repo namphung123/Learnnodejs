@@ -7,7 +7,7 @@ let getHomePage = (req, res) => {
     data = results.map((rows) => {
       return rows;
     });
-    res.render("index.ejs", { dataUser: JSON.stringify(data) });
+    res.render("index.ejs", { dataUser: data });
   });
 };
 
