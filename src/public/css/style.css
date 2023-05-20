@@ -64,14 +64,6 @@ h1 {
   color: white;
 }
 
-button {
-  width: 100%;
-  height: 100%;
-  max-width: 100px;
-  padding: 10px;
-  font-size: 18px;
-}
-
 a {
   text-decoration: none;
   color: #000;
@@ -96,4 +88,33 @@ input {
 
 .form .btn {
   margin-top: 20px;
+}
+
+.btn-edit {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 50%;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  max-width: 100px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.update-user {
+  padding: 20px;
+  text-align: center;
+}
+
+.update-user label {
+  margin: 10px;
+  display: block;
+}
+
+.btn-update {
+  padding: 20px;
 }
