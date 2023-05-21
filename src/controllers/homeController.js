@@ -36,7 +36,6 @@ const deleteUser = async (req, res) => {
 const editUser = async (req, res) => {
   const id = req.params.id;
   let [user] = await pool.execute("select * from users where id = ?", [id]);
-  console.log(user);
   return res.render("update.ejs", { dataUser: user[0] });
 };
 
